@@ -1,0 +1,26 @@
+.header{
+    position:fixed;
+    backdrop-filter: blur(10px);
+    height: 110px;
+    top: 0;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.header_body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 20px;
+    z-index: 100;
+    }
+
+.header_logo{
+    position: relative;
+    height: 80%;
+    width: 10%;
+    background-image: url("https://prisma2k23.in/Assets/logoPrisma.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
